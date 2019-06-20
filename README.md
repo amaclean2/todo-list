@@ -1,25 +1,25 @@
 ## Tech Stack
 ### db:
-	```mongodb```
+```mongodb```
 
 ### server:
-	testing:
-		```mocha```
-		```chai```
-	frameworks:
-		```mongoose```
-		```express```
+testing:
+```mocha```
+```chai```
+frameworks:
+```mongoose```
+```express```
 
 ### client:
-	testing:
-		```jest```
-		```enzyme```
-	data:
-		```redux```
-	components:
-		```react```
-	styling:
-		```Sass```
+testing:
+```jest```
+```enzyme```
+data:
+```redux```
+components:
+```react```
+styling:
+```Sass```
 
 ## Start Up
 > docker-compose up build
