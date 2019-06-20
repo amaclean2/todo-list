@@ -1,24 +1,24 @@
 # Tech Stack
-## db:
+## Database
 ```mongodb```
 
-## server:
-### testing:
+## Server
+### testing
 ```mocha```
 ```chai```
-### frameworks:
+### frameworks
 ```mongoose```
 ```express```
 
-## client:
-### testing:
+## Client
+### testing
 ```jest```
 ```enzyme```
-### data:
+### data
 ```redux```
-### components:
+### components
 ```react```
-### styling:
+### styling
 ```Sass```
 
 ## Start Up
