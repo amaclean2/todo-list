@@ -1,25 +1,25 @@
 ## `Tech Stack`
 ### db:
-	`mongodb`
+	mongodb
 
 ### server:
 	testing:
-		`mocha`
-		`chai`
+		mocha
+		chai
 	frameworks:
-		`mongoose`
-		`express`
+		mongoose
+		express
 
 ### client:
 	testing:
-		`jest`
-		`enzyme`
+		jest
+		enzyme
 	data:
-		`redux`
+		redux
 	components:
-		`react`
+		react
 	styling:
-		`Sass`
+		Sass
 
 ## `Start Up`
 docker-compose up build
