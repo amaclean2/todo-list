@@ -1,0 +1,25 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "frontend": "cd client && npm start",
+    "backend": "cd server && npm run dev",
+    "dev": "concurrently \"npm run frontend\" \"npm run backend\"",
+    "install-all": "npm install && cd client && npm install && cd ../server && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amaclean2/todo-list.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amaclean2/todo-list/issues"
+  },
+  "homepage": "https://github.com/amaclean2/todo-list#readme",
+  "dependencies": {
+    "concurrently": "^4.1.0"
+  }
+}
