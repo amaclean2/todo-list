@@ -1,8 +1,8 @@
-# `Tech Stack`
-db:
+## `Tech Stack`
+### db:
 	`mongodb`
 
-server:
+### server:
 	testing:
 		`mocha`
 		`chai`
@@ -10,7 +10,7 @@ server:
 		`mongoose`
 		`express`
 
-client:
+### client:
 	testing:
 		`jest`
 		`enzyme`
@@ -21,8 +21,8 @@ client:
 	styling:
 		`Sass`
 
-# `Start Up`
+## `Start Up`
 docker-compose up build
 
-# `Tear Down`
+## `Tear Down`
 docker-compose down
