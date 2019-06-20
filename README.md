@@ -21,8 +21,8 @@
 	styling:
 		Sass
 
-## `Start Up`
+## Start Up
 docker-compose up build
 
-## `Tear Down`
+## Tear Down
 docker-compose down
