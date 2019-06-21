@@ -1,7 +1,7 @@
 version: "3"
 services:
   client:
-    container_name: amacleanjs/todo-client
+    container_name: todo-client
     restart: always
     build: "./client"
     ports:
@@ -9,7 +9,7 @@ services:
     links:
       - server
   server:
-    container_name: amacleanjs/todo-server
+    container_name: todo-server
     restart: always
     build: "./server"
     ports:
