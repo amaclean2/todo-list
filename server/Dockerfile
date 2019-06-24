@@ -1,12 +1,12 @@
 FROM node:10
 
-WORKDIR /usr/src/app/api
+WORKDIR /usr/src/app/
 
-COPY package*.json ./api
+COPY package*.json ./
 
 RUN npm install
 
-COPY . ./api
+COPY . ./
 
 EXPOSE 5000
 CMD ["npm", "start"]
