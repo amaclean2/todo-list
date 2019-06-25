@@ -22,11 +22,9 @@ const CreateTodo = ({
             value={title}
             type="text"
             onChange={e => setTitle(e.target.value)} />
-        <input
+        <button
             className="submit-button"
-            type="submit"
-            value="create todo"
-            onClick={() => handleSubmit()} />
+            onClick={() => handleSubmit()}>create todo</button>
     </div>
 }
 
