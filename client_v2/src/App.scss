@@ -1,1 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  margin-left: 20px;
+}
+
+input[type=text] {
+  border: none;
+  background-color: #F8F7F3;
+  outline: none;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  min-width: 400px;
+  font-size: 16px;
+}
+
+button {
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  margin: 10px;
+  padding: 10px 12px;
+}
+
+.todo-submit-button {
+  background-color: #a8ccd4;
+  color: #FFF;
+  transition: all 200ms ease-in-out;
+}
+
+.todo-submit-button:focus {
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.todo-submit-button:hover {
+  box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px;
+
+  li {
+    padding: 0 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+
+.todo-contents {
+  min-width: 400px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .todo-date {
+    margin-left: 40px;
+  }
+}
