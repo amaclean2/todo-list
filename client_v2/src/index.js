@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { TodoProvider } from './todoContext';
+import { TodoProvider } from './TodoContext';
 
 ReactDOM.render(
   <React.StrictMode>
