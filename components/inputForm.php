@@ -1,4 +1,4 @@
-<form action="resources/addTodo.php" method="post" class="input-fields">
+<form action="" method="post" class="input-fields">
     <?php require_once 'errorField.php' ?>
     <input
         type="text"

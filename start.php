@@ -6,4 +6,7 @@
     require_once 'resources/Todo.php';
 
     $todoList = new TodoList;
+    $error = null;
+
+    require_once 'resources/handleInput.php';
 ?>

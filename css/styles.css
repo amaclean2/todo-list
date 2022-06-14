@@ -8,6 +8,15 @@ h1 {
     text-align: center;
 }
 
+.error-field {
+    background-color: #ef8181;
+    color: #FFF;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    max-width: 310px;
+}
+
 .input-fields {
     background-color: #f6f6f6;
     padding: 10px;

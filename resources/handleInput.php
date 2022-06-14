@@ -1,7 +1,4 @@
 <?php
-require_once 'config.php';
-require_once 'connection.php';
-
     if (isset($_POST['submit'])) {
         if (isset($_POST['todo-title']) && isset($_POST['todo-body'])) {
             if (strlen($_POST['todo-title']) > 0 && strlen($_POST['todo-body']) > 0) {
@@ -14,7 +11,7 @@ require_once 'connection.php';
 
                 $db->query("INSERT INTO todos (todo_title, todo_body) VALUES ('$todoTitle', '$todoBody')");
 
-                header('location:../index.php');
+                header('location:index.php');
 
             } else {
                 $error =  'Please enter a title and a body';
@@ -23,3 +20,4 @@ require_once 'connection.php';
             $error = 'Please enter a title and a body';
         }
     }
+?>
